@@ -1,0 +1,97 @@
+body{
+    height: 100vh;
+}
+.main{
+    width: 100%;
+    height: 100%; 
+}
+.lado_esquerdo{
+    width: 50%;
+    height: 100%;
+    background-color:linear-gradient(0deg, #19A3A6 16.31%, #03355A 100%);
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lado_direito{
+    width: 50%;
+    height: 100%;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.caixa_formulario h1{
+    background: linear-gradient(309deg, #19A3A6 0%, #03355A 100%);
+    font-size: 36px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nome{
+    width: 300px;
+    height: 50px;
+    background-image: url("../images/pessoa.svg");
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    border: 1px solid #10768D;
+}
+.nome::placeholder{
+    color: #7D7D7D;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+.email{
+    width: 300px;
+    height: 50px;
+    background-image: url("../images/vector.svg");
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    border: 1px solid #10768D;
+}
+.email::placeholder{
+    color: #7D7D7D;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+.password{
+    width: 300px;
+    height: 50px;
+    background-image: url("../images/lock.svg");
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    border: 1px solid #10768D;
+}
+.password::placeholder{
+    color: #7D7D7D;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+}
+.form p{
+    display: flex;
+    text-align: center;
+    color: #686868;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+}
+.form a{
+    color: #10768D;
+}
+.entrar{
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    background: #10768D;
+    color: #FFF;
+}
