@@ -1,14 +1,18 @@
 body{
     height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 .main{
     width: 100%;
-    height: 100%; 
+    height: 100%;
+    display: flex; 
 }
 .lado_esquerdo{
     width: 50%;
     height: 100%;
-    background-color:linear-gradient(0deg, #19A3A6 16.31%, #03355A 100%);
+    background: linear-gradient(0deg, #19A3A6 16.31%, #03355A 100%);
     box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.25) inset;
 }
 .image{
@@ -26,8 +30,13 @@ body{
     flex-direction: column;
 }
 .caixa_formulario h1{
-    background: linear-gradient(309deg, #19A3A6 0%, #03355A 100%);
+    background: linear-gradient(250deg, #19A3A6 30%, #03355A 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
     font-size: 36px;
+    font-family: Poppins;
 }
 .form{
     display: flex;
