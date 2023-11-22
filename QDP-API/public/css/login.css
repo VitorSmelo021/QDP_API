@@ -39,6 +39,7 @@ body{
     color: black;
     font-size: 36px;
     font-family: Poppins;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,14 +63,18 @@ body{
     background-position: 10px;
     background-repeat: no-repeat;
     border-radius: 25px;
+    font-size: 15px;
     border: 1px solid #10768D;
+    color: #19A3A6;
+    font-family: Poppins;
+    padding-left: 35px;
+    outline: none;
 }
 .email::placeholder{
     color: #7D7D7D;
     font-family: Poppins;
     font-weight: 400;
     font-size: 16px;
-    padding-left: 35px;
 }
 .password{
     width: 300px;
@@ -79,14 +84,17 @@ body{
     background-repeat: no-repeat;
     background-position: 10px;
     border-radius: 25px;
+    font-size: 15px;
+    color: #19A3A6;
     border: 1px solid #10768D;
+    padding-left: 35px;
+    outline: none;
 }
 .password::placeholder{
     color: #7D7D7D;
     font-family: Poppins;
     font-weight: 400;
     font-size: 16px;
-    padding-left: 35px;
 }
 .form p{
     display: flex;
@@ -108,4 +116,7 @@ body{
     color: #FFF;
     border: none;
     font-size: 20px;
+}
+.entrar:hover{
+    background: #2c7f92;
 }
